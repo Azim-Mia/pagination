@@ -1,0 +1,62 @@
+
+.container-all-table{
+  text-align: center;
+}
+.search-container{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+.searchInputStyle{
+  width:400px;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0px;
+  background:tomato;
+  border-radius: 10px;
+  color:#000;
+}
+.btn{
+  width:auto;
+  font-size: 3rem;
+  border-radius: 10px;
+  background:#ff22dd ;
+  margin-left: -4px;
+    padding: 20px 10px;
+}
+.container-table{
+  margin-top:2vh;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  background:;
+}
+
+thead{
+background: pink;
+}
+th{
+  font-size: 3rem;
+  padding: 3px 4px;
+  border: 2px solid blue;
+}
+tr{
+  background: pink;
+}
+td{
+  font-size: 3rem;
+  padding: 0px 10px;
+  margin:0;
+}
+.main_note{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_note p{
+ padding: 0px 10px; 
+ border: 1px solid red;
+ font-size: 3rem;
+}

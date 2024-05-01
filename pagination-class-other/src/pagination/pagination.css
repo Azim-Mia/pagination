@@ -1,0 +1,73 @@
+
+/* .item must be first */
+.item {
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+  
+}
+.active {
+  border: solid 1px #808e9b;
+  border-radius: 40px;
+  color: #fff;
+  color: #808e9b;
+}
+.pagination {
+  align-items: center;
+  background-color: #0fbcf9;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  width: 1000px;
+}
+.pagination a {
+  float: left;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.pagination li{
+  background: blue;
+  color: #fff;
+  font-size: 2rem;
+  border: 1px solid yellow;
+}
+.pagination li:hover{
+  background:#000;
+  color: #fff;
+}
+.previous {
+  border-right: solid 1px #808e9b;
+  font-size: 4px;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  width: 150px;
+}
+.next {
+  border-left: solid 1px #808e9b;
+  font-size: 4px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  width: 150px;
+}
+.disabled-page {
+  color: #808e9b;
+}
+.pagination-page {
+  font-weight: 700;
+}
+
+
+@media screen and (max-width:704px){
+/* .item must be first */
+
+}
